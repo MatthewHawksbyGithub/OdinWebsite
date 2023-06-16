@@ -17,11 +17,12 @@ body{
     gap:40px;
     font-size: 32px;
     margin:20px;
+    margin-left:170px;
 }
 
 .toprightlinks{
     display: flex;
-    margin-right:30px;
+    margin-right:170px;
 }
 
 ul{
@@ -33,25 +34,45 @@ ul{
 
 .hero{
     display: flex;
+    height:350px;
     justify-content:center;
     align-content:center;
     background-color: #1F2937;
+    font-weight: 900;
+    font-size:28px;
     padding:50px;
+    min-width:fit-content;
+    min-height:fit-content;
+}
+
+.subtext{
+    font-size:20px;
+    font-weight:600;
 }
 
 .boxes{
-    display: flex;
-    align-items: center;
     justify-content: center;
     color: #1F2937;
+    margin-left:170px;
+    margin-right:170px;
+    text-align:center;
 }
 
 .infobox{
     display:flex;
-    flex-direction:column;
-    margin:20px;
+    margin:50px;
+    width:100px;
     justify-content:center;
     align-content:center;
+    flex-direction:column;
+    font-size:14px;
+}
+
+.infoboxes{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    width:800px;
 }
 
 .leftbox{
@@ -60,7 +81,12 @@ ul{
 }
 
 .rightbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color:gray;
+    font-weight:600;
+    font-size:20px;
     width:500px;
     height:200px;
 }
@@ -69,40 +95,51 @@ ul{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: lightblue 10px;
+    border: #3882F6 solid 4px;
+    border-radius:5px;
     width:100px;
     height:100px;
-    background-color: gray;
+    background-color: white;
 }
 
 .third{
     display:flex;
     background-color: #E5E7EB;
-    
 }
 
 .quote{
     background-color: #E5E7EB;
     color: #1F2937;
-    font-size:24px; /*36??*/
+    font-size:20px; /*36??*/
     font-style: italic;
-    font-style: light;
-    padding:100px;
+    font-weight: light;
+    padding:150px;
 }
 
 .action{
     display:flex;
-    background-color: #3882F6;
     align-items:center;
     justify-content: center;
+    font-size:18px;
+    height:250px;
 }
 
 button{
     background-color: #3882F6;
+    color:white;
+    width:100px;
+    height:70px;
+    border-radius:5px;
+    font-size:16px;
 }
 
 .innerbox{
     display:flex;
+    background-color: #3882F6;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    border-radius:5px;
 }
 
 .footer{
